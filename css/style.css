@@ -1,0 +1,158 @@
+
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-classear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+    font-family: Arial;
+    background: #e8e8e8 url("../img/Ellipse1.png") 50% 160px no-repeat;;
+    font-weight: 400;
+}
+.container{
+    padding: 125px 0 125px 0;
+    max-width: 841px;
+    margin: 0 auto;
+
+}
+.tr {
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 40px;
+
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #273d46;
+    margin: 43px auto 16px;
+    text-align: center;
+}
+.b2 {
+    font-family: 'Times New Roman';
+    opacity: 0.9;
+    font-size: 36px;
+    line-height: 50px;
+    max-width: 722px;
+    color: #273d46;
+    margin: 0 auto 75px;
+    text-align: center;
+}
+.space{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom:95px;
+    box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
+}
+.space img{
+    max-width: 100%;
+}
+.text {
+    /*opacity: 0.8;*/
+    font-size: 24px;
+    line-height: 40px;
+    color: #4e5f66;
+    margin: 0 auto 61px;
+    padding: 0 45px;
+}
+.text p {
+    font-family: 'Times New Roman';
+}
+.p1{
+    margin-bottom: 62px;
+}
+
+.ul1 {
+    margin-top: 61px;
+    margin-bottom: 55px;
+}
+.ul1 li{
+    background: url(../img/check.png) 0 7px no-repeat;
+    padding-left: 35px;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.ul1 li:nth-child(1) {
+    font-size: 20px;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+    color: #273d46;
+}
+.ul1 li:nth-child(2) {
+    font-style: italic;
+    color: #80b7b3;
+}
+.ul1 li:nth-child(3) {
+    font-weight: 700;
+    color: #273d46;
+}
+.ul1 li:nth-child(4) {
+    text-decoration: line-through;
+    color: #273d46;
+}
+.ul1 li:nth-child(4) span {
+opacity: 0.3;
+}
+.button {
+    background: #80b7b3;
+    border-radius: 30px;
+    height: 44px;
+    width: 199px;
+    box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+}
+.button p {
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+
+    margin: 0 auto;
+    opacity: 0.8;
+    text-align: center;
+}
+.button a{
+    font-family: Arial;
+    vertical-align: middle;
+    color: #ffffff;
+}
+.button a:hover{
+    text-decoration: underline;
+}
+.button img {
+    vertical-align: middle;
+    opacity: 0.8;
+    width: 21px;
+    height: 14px;
+}
